@@ -1,0 +1,27 @@
+{
+  "name": "electron-ide",
+  "version": "0.0.1",
+  "description": "IDE to program on JS/CSS/HTML",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "build": "./node_modules/.bin/electron-packager ./ electron-training --platform=darwin --arch=x64  --overwrite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lowlander1982/electron-ide.git"
+  },
+  "author": "@lowlander1982",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lowlander1982/electron-ide/issues"
+  },
+  "homepage": "https://github.com/lowlander1982/electron-ide#readme",
+  "devDependencies": {
+    "electron-packager": "^8.4.0",
+    "eslint": "^3.12.2"
+  },
+  "dependencies": {
+    "electron": "^1.4.13"
+  }
+}
